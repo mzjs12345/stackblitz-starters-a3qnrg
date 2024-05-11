@@ -1,0 +1,31 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>CSS变形教学</title>  
+<style>  
+  /* 定义变形样式 */  
+  .box {  
+    width: 100px;  
+    height: 100px;  
+    background-color: #4CAF50;  
+    /* 过渡效果，持续时间为1秒 */  
+    transition: transform 1s;  
+  }  
+  
+  .box:hover {  
+    /* 鼠标悬停时的变形效果：旋转45度并放大1.5倍 */  
+    transform: rotate(45deg) scale(1.5);  
+  }  
+</style>  
+</head>  
+<body>  
+  
+<!-- HTML结构 -->  
+<div class="box"></div>  
+  
+<p>将鼠标悬停在上面的方块上，看它如何变形！</p>  
+  
+</body>  
+</html>

@@ -1,0 +1,47 @@
+!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS类、对象</title>
+</head>
+
+<body>
+    <script>
+        function sayHello() {
+            console.log("这是来自函数的你好");
+        }
+        sayHello();
+        //  定义类
+        class Student {
+            //对象构造器
+            constructor(专业, 学校, 姓名) {
+                this.专业 = 专业;
+                this.学校 = 学校;
+                this.姓名 = 姓名;
+            }
+            //类中的变量，叫做属性
+            专业 = "新闻学"
+            //类class中的函数function,叫做方法method
+            sayHello() {
+                console.log("这是来自方法的：你好！");
+                sweetlove(){
+                    console.log("开始一段没有结果的恋情");
+
+                }
+            }
+        }
+        // 定义对象
+        let 小明 = new Student();
+        console.log("typeof 小明")
+        const 小明 = new 学生("新闻学", "西北民族大学", "小明");
+        const 小丽 = new 学生("舞蹈学", "西北民族大学", "小丽");
+        console.log(小明.专业);
+        console.log(小丽.专业);
+
+    </script>
+
+</body>
+
+</html>
